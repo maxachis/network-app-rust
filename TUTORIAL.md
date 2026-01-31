@@ -8,26 +8,26 @@ For detailed specifications, see [DEV_PLAN_TAURI.md](./DEV_PLAN_TAURI.md).
 
 ## Phase 1: Project Setup
 
-### Step 1.1: Create the Tauri Project
+### Step 1.1: Create the Tauri Project ✓
 **Goal**: Get a working Tauri + Svelte app running
 
-- [ ] Install prerequisites (Node.js, Rust, Tauri CLI)
-- [ ] Run `npm create tauri-app@latest`
-- [ ] Select Svelte + TypeScript template
-- [ ] Run `npm install` and `npm run tauri dev`
-- [ ] Verify the app window opens
+- [x] Install prerequisites (Node.js, Rust, Tauri CLI)
+- [x] Run `npm create tauri-app@latest`
+- [x] Select Svelte + TypeScript template
+- [x] Run `npm install` and `npm run tauri dev`
+- [x] Verify the app window opens
 
 **Rust concepts**: None yet - just setup
 
 ---
 
-### Step 1.2: Explore the Generated Project
+### Step 1.2: Explore the Generated Project ✓
 **Goal**: Understand the project structure
 
-- [ ] Examine `src-tauri/src/main.rs` - the Rust entry point
-- [ ] Examine `src-tauri/Cargo.toml` - Rust dependencies
-- [ ] Examine `src-tauri/tauri.conf.json` - app configuration
-- [ ] Examine `src/` - the Svelte frontend
+- [x] Examine `src-tauri/src/main.rs` - the Rust entry point
+- [x] Examine `src-tauri/Cargo.toml` - Rust dependencies
+- [x] Examine `src-tauri/tauri.conf.json` - app configuration
+- [x] Examine `src/` - the Svelte frontend
 
 **Rust concepts**: Project structure, Cargo.toml basics
 
